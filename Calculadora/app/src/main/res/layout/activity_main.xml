@@ -19,7 +19,7 @@
         android:ellipsize="start"
         />
     <TextView
-        android:id="@+id/resultado"
+        android:id="@+id/txt_resultado"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:textColor="@color/black"
@@ -41,7 +41,7 @@
                 android:text="clear"/>
 
          <TextView
-            android:id="@+id/divisão"
+            android:id="@+id/divisao"
             style="@style/Operators_Button"
             android:text="/"/>
 
@@ -144,14 +144,16 @@
             android:id="@+id/numero_zero"
             style="@style/Numbers_Button"
             android:text="0"/>
-        <TextView
-            android:id="@+id/backspace"
+        <ImageView
+            android:id="@+id/remove"
             style="@style/Numbers_Button"
-            android:text="backspace"/>
+            android:src="@drawable/backspace"
+            android:scaleType="center"/>
         <TextView
             android:id="@+id/igual"
             style="@style/Operators_Button"
             android:text="="/>
+        
     </LinearLayout>
 
 </LinearLayout>
